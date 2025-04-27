@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+.container{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between
+}
+#mydiv1{
+	width:100px;
+	height:100px;
+	background-color:green;
+	font-weight:bold;
+}
+#mydiv2{
+	width:100px;
+	height:100px;
+	background-color:red;
+	font-weight:bold;
+}
+#mydiv3{
+	width:100px;
+	height:100px;
+	background-color:blue;
+	font-weight:bold;
+}
